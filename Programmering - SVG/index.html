@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/styles.css" rel="stylesheet" type="text/css">
+    <title>SVG</title>
+</head>
+
+<body>
+    <main class="container">
+        <section>
+            <svg class="letter" viewbox="0 0 200 300">
+               <defs class="defs"/>
+               <g class="group">
+                  <path class="Letter__path-1" d="M 28,47 V 124 H 124 V 47 Z"/>
+                  <path class="Letter__path-2" d="M 28,47 75,80 124,47"/>
+                  <!-- one square and one triangle together -->
+               </g>
+            </svg>
+        </section>
+        <section>
+            <img src="/Images/Checkmark.svg" alt="checkmark"></img>
+            <!-- i find it more easy to use img-tag instead of use-tag -->
+            <!-- didnt get my xlink to work for safari browser support -->
+        </section>
+    </main>
+</body>
+
+</html>

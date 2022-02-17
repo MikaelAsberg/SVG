@@ -1,0 +1,32 @@
+body {
+    /* background-color: rgb(173, 172, 179); */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.letter {
+    width: 200mm;
+    height: 200mm;
+}
+
+.Letter__path-1 {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 3px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1"
+
+}
+
+.Letter__path-2 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+}
